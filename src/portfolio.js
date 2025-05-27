@@ -23,7 +23,7 @@ const greeting = {
   username: "Tenzin Thinlay",
   title: "Hi all, I'm Thinlay",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs  and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nextjs / Nodejs  and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/uc?export=download&id=1lnJqegeIksP_luAX7WawxEo0vz2OzaQP", // Set to empty to hide the button
@@ -54,7 +54,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS"
+      "⚡ Integration of third party services such as Firebase, Openai, Geminiai"
     )
   ],
 
@@ -97,10 +97,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "firebase",
@@ -184,7 +180,7 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/resumelogo.webp"),
       projectName: "Resume Analyzer",
       projectDesc: "An AI-powered web application that analyzes resumes and offers personalized feedback using OpenAI’s GPT API. Users receive keyword suggestions, content improvement tips, and a resume score to enhance job-market alignment. Built using ReactJS, TailwindCSS, and Node.js, with seamless integration of OpenAI's API.",
       footerLink: [
@@ -196,7 +192,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/portfoliologo.webp"),
       projectName: "Personal Portfolio Website",
       projectDesc: "A responsive, single-page application designed to showcase projects, skills, and contact details. Built with ReactJS and TailwindCSS, the site features smooth animations, clean layout, and mobile optimization. Deployed on Netlify for fast and reliable performance.",
       footerLink: [
