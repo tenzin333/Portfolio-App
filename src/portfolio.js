@@ -4,7 +4,6 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
 // Splash Screen
 
 const splashScreen = {
@@ -26,7 +25,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nextjs / Nodejs  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/uc?export=download&id=1otgL15f7dU2EFQ0hU-cdiNQMpNgRGjLi", // Set to empty to hide the button
+    "https://drive.google.com/uc?export=download&id=1IylWQ7wzDSws1BG5aqYKd87wTSHeZn1O", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,64 +45,103 @@ const socialMediaLinks = {
 
 // Skills Section
 
-const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji(
-      "⚡ Integration of third party services such as Firebase, Openai, Geminiai"
-    )
-  ],
+// const skillsSection = {
+//   title: "What I do",
+//   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+//   skills: [
+//     emoji(
+//       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+//     ),
+//     emoji(
+//       "⚡ Integration of third party services such as Firebase, Openai, Geminiai"
+//     )
+//   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+//   /* Make Sure to include correct Font Awesome Classname to view your icon
+// https://fontawesome.com/icons?d=gallery */
+
+//   softwareSkills: [
+//     {
+//       skillName: "html-5",
+//       fontAwesomeClassname: "fab fa-html5"
+//     },
+//     {
+//       skillName: "css3",
+//       fontAwesomeClassname: "fab fa-css3-alt"
+//     },
+//     {
+//       skillName: "sass",
+//       fontAwesomeClassname: "fab fa-sass"
+//     },
+//     {
+//       skillName: "JavaScript",
+//       fontAwesomeClassname: "fab fa-js"
+//     },
+//     {
+//       skillName: "reactjs",
+//       fontAwesomeClassname: "fab fa-react"
+//     },
+//     {
+//       skillName: "nodejs",
+//       fontAwesomeClassname: "fab fa-node"
+//     },
+//     {
+//       skillName: "express",
+//        fontAwesomeClassname: "devicon-express-original"
+//     },
+//     {
+//       skillName: "npm",
+//       fontAwesomeClassname: "fab fa-npm"
+//     },
+//     {
+//       skillName: "sql-database",
+//       fontAwesomeClassname: "fas fa-database"
+//     },
+//     {
+//       skillName: "firebase",
+//       fontAwesomeClassname: "fas fa-fire"
+//     },
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
+const skillsSection = {
+  title: "What I Do",
+  subTitle: "PASSIONATE FULL-STACK DEVELOPER EXPLORING AI-INTEGRATED WEB SOLUTIONS",
+  skills: [
+    emoji("⚡ Build responsive, high-performance web applications using React.js, Next.js, and modern JavaScript frameworks."),
+    emoji("⚡ Develop scalable backend APIs with Node.js, Express.js, and MongoDB, ensuring secure and efficient data flow."),
+    emoji("⚡ Integrate AI and LLM APIs (Gemini, OpenAI, Claude) to create intelligent, automated web experiences."),
+    emoji("⚡ Optimize web performance with code splitting, lazy loading, and best UI/UX practices."),
+    emoji("⚡ Deploy and maintain projects through CI/CD pipelines using Netlify and Vite."),
+  ],
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "express",
-      fontAwesomeClassname: "fab fa-express"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
+    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    { skillName: "TypeScript", fontAwesomeClassname: "fab fa-js-square" },
+    { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "Next.js", fontAwesomeClassname: "fa-solid fa-layer-group" },
+    { skillName: "Vue.js", fontAwesomeClassname: "fab fa-vuejs" },
+    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+    // Express icon not in Font Awesome — use devicon fallback or image
+    { skillName: "Express.js", fontAwesomeClassname: "devicon-express-original" },
+    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
+    { skillName: "Supabase", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "TailwindCSS", fontAwesomeClassname: "fas fa-wind" },
+    { skillName: "Material-UI", fontAwesomeClassname: "fas fa-palette" },
+    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
+    { skillName: "Webpack", fontAwesomeClassname: "fas fa-cube" },
+    { skillName: "Vite", fontAwesomeClassname: "fas fa-bolt" },
+    { skillName: "Netlify", fontAwesomeClassname: "fab fa-neos" },
+    { skillName: "CI/CD", fontAwesomeClassname: "fas fa-code-branch" },
+    { skillName: "Gemini AI", fontAwesomeClassname: "fas fa-robot" },
+    { skillName: "OpenAI", fontAwesomeClassname: "fas fa-brain" },
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  display: true,
 };
 
 // Education Section
