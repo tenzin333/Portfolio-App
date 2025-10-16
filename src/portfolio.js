@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nextjs / Nodejs  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/uc?export=download&id=1hoSvA2AcTAtoJBmhc9ZxQt_Ln75frMKs", // Set to empty to hide the button
+    "https://drive.google.com/uc?export=download&id=1otgL15f7dU2EFQ0hU-cdiNQMpNgRGjLi", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -201,7 +201,18 @@ const bigProjects = {
           url: "https://tenzinthinlay.netlify.app/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/projectImages/quickChat.jpg"),
+      projectName: "Quick Chat",
+      projectDesc: "Realtime Chat Application",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://tenzinthinlay.netlify.app/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
