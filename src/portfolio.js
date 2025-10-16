@@ -87,8 +87,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "redux",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "express",
+      fontAwesomeClassname: "fab fa-express"
     },
     {
       skillName: "npm",
