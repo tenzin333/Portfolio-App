@@ -25,7 +25,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nextjs / Nodejs  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/uc?export=download&id=1IylWQ7wzDSws1BG5aqYKd87wTSHeZn1O", // Set to empty to hide the button
+    "https://drive.google.com/uc?export=download&id=1avEag0ewKGb8Y1-nl0tM9Osd1HCK1aKO", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -247,7 +247,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://tenzinthinlay.netlify.app/"
+          url: "https://chat-app-alpha-ivory.vercel.app/"
         }
       ]
     },
